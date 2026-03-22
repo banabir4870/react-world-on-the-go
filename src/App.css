@@ -180,3 +180,27 @@
     border-right-color: var(--border);
   }
 }
+
+.card-container{
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+  border: 1px solid orange;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.country-visited{
+  background-color: cadetblue;
+}
+
+.visited-flags-container img{
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
